@@ -1,0 +1,314 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+/* Nav */
+/* Define button color for dark mode */
+.btn-primary-nav {
+  background-color: #fff !important;
+  border-color: #343a40 !important;
+  color: #343a40 !important;
+}
+
+.btn-primary-nav:hover {
+  background-color: #eeeeee !important;
+  border-color: #343a40 !important;
+  color: #000 !important;
+}
+
+/* .dark-mode .btn-primary {
+  background-color: #fff !important; 
+  border-color: #343a40 !important; 
+  color: #343a40 !important; 
+} */
+
+/* ----------------------- */
+/* Hero Section */
+/* ---------------------- */
+.btn-primary-custom {
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+  color: #eeeeee !important;
+}
+
+.btn-primary-custom:hover {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+  color: #eeeeee !important;
+}
+/* ----------------------- */
+/* Portfolio Section */
+/* ---------------------- */
+
+#logos,
+.logos {
+  background-color: #84a98c !important;
+}
+
+.portfolio-bg {
+  background-color: #84a98c !important;
+}
+
+.portfolio-btn {
+  color: #152d2e;
+  border: 1px solid #fff;
+  min-width: 100px;
+}
+
+.portfolio-btn:hover {
+  background-color: #152d2e !important;
+  color: #84a98c;
+  border: 1px solid #fff;
+}
+
+.btn-group-porfolio {
+  margin: 0 auto;
+}
+
+.section-with-border {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 8px;
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.open-website-btn {
+  color: #152d2e !important;
+}
+.open-website-btn:hover {
+  color: #fff !important;
+}
+
+/* accordion */
+
+/* Styles for all themes */
+.accordion-button {
+  color: #000; /* Black font color for all themes */
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000; /* Black font color for all themes */
+}
+
+.accordion-body {
+  text-align: start;
+  color: #000; /* Black font color for all themes */
+}
+
+/* Custom box shadow and rounded corners */
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(169, 169, 169, 0.5) !important; /* Light grey box shadow */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Styles specifically for dark mode */
+.dark-mode .accordion-button,
+.dark-mode .accordion-button:not(.collapsed),
+.dark-mode .accordion-body {
+  color: #fff !important; /* White font color in dark mode */
+}
+
+/* Override Bootstrap accordion button icon */
+.dark-mode .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#contact {
+  /* background-color: #003c43; */
+}
+
+.max-width-100 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers its container */
+}
+
+/* Text & Button overlay on image*/
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    196,
+    223,
+    223,
+    0.7
+  ); /* Semi-transparent hex color #C4DFDF */
+  padding: 20px; /* Add some padding to the overlay */
+  border-radius: 10px; /* Add rounded corners */
+  text-align: center; /* Center the content horizontally */
+}
+
+.contact-img-p {
+  color: #627254; /* Dark Green (627254) text color */
+  font-size: 18px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+.border-top-centered {
+  border-top: 1px solid white;
+  border-radius: 8px;
+  width: 50%;
+}
+
+/* Image alignment on large screens */
+@media (min-width: 768px) {
+  .mx-md-0 {
+    margin-right: auto; /* Align to the right on medium screens and above */
+  }
+}
+
+/* Custom Footer Styles */
+.custom-footer {
+  color: #e3fef7;
+  font-size: 14px;
+  background: #003c43;
+  box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+
+.custom-footer p {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.social-button {
+  display: inline-block;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #dddddd; /* Icon color */
+  border-radius: 50%; /* Rounded shape */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-button:hover {
+  color: #84a98c; /* Icon color on hover */
+}
+
+.container {
+  position: relative;
+}
+
+.divider {
+  border-top: 1px solid #ccc; /* Divider line style */
+  margin-top: 20px; /* Adjust distance between paragraph and divider */
+  margin-bottom: 20px; /* Adjust distance between divider and social buttons */
+}
+#contactFormDiv {
+  overflow: hidden; /* Hide content when collapsed */
+  height: 0; /* Initially collapsed */
+  transition: height 0.3s ease; /* Smooth transition effect */
+}
+
+#contactFormDiv.expanded {
+  height: 950px; /* Expanded height */
+}
+
+#iframeContainer {
+  position: relative;
+}
+
+.close-form-btn {
+  position: absolute;
+  top: 5px; /* Adjust as needed */
+  right: 5px; /* Adjust as needed */
+  width: 40px;
+  height: 40px;
+  background-color: #52796f;
+  color: #fff;
+  transition: all 0.8s ease; /* Transition for smooth animation */
+  display: flex;
+  justify-content: center; /* Center icon horizontally */
+  align-items: center; /* Center icon vertically */
+  border-radius: 8px; /* Adjust border radius for a rounded square */
+  border: none;
+}
+
+.close-form-btn:hover {
+  background-color: #84a98c;
+}
+
+.close-form-btn svg {
+  width: 24px;
+  height: 24px;
+}

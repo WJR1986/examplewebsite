@@ -1,0 +1,9 @@
+.card-img-top-portfolio {
+  padding-top: 40px;
+  max-height: 400px !important; /* Set the desired height */
+  object-fit: contain !important; /* Maintain aspect ratio while covering the container */
+}
+
+.btn-group-porfolio {
+  margin: 0 auto;
+}
